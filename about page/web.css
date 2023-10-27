@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: url('blog1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFF;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.navbar{
+margin-right: 10px;
+}
+.navbar a{
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFF;
+    margin-right: 30px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.navbar a:hover{
+    color: coral;
+}
